@@ -1,0 +1,2 @@
+const category=["All","Arts & Craft","Automative","Baby","Beauty & Personal Care","Books","Computer","Digital Music","Electronics","Kindle Store","Prime video","Mens Fashion","Girls Fashion","Women Fashion","Boys Fashion","Household","Gadget","Mobile","Software","Wear","Fashion","Cosmetic"];
+export default category;

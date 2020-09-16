@@ -1,0 +1,222 @@
+::-webkit-scrollbar{width:15px}
+::-webkit-scrollbar-track{
+    border:none;
+    background:none;
+    display: flex;
+    justify-content: center;
+}
+::-webkit-scrollbar-thumb{
+    width:10px;
+    background:rgb(202, 202, 202);
+    border-radius:8px;
+}
+.home{
+    position: relative;
+    background: rgb(228, 228, 228);
+}
+.home .pcontent{
+    position:absolute;
+    transform: translateY(-320px);
+}
+.home .pcontent .content{
+    padding-left:12px;
+    padding-right:12px;
+    
+   
+}
+.home .content .row{justify-content: space-around;margin-bottom:8px}
+.row .col-3{
+    padding:12px;
+}
+.card-title {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(44, 44, 44);
+}
+.Card{
+    position: relative;
+    height: 420px;
+    padding:10px;
+    background: white;
+    color:grey;
+    
+}
+.Card img{
+width:100%;
+height: 304px;
+}
+.card-link{
+    position: absolute;
+    top:90%;
+    left:10px;
+}
+.btn-card{
+    width:100%;
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgb(53, 53, 53);
+    padding:5px;
+    font-weight: 500;
+    border: 1px solid #c2921a;
+    background: linear-gradient(180deg,#ECB221,#F4D587);
+    border-radius: 2px;
+}
+
+/* HProduct sector */
+.hproducts{
+    position: relative;
+    width: calc(97vw);
+    height: 285px;
+    overflow-x: scroll;
+    background: white;
+    margin-bottom:20px;
+    padding:8px;
+}
+.hproducts .flex{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.hproducts .flex .product{
+    margin-left:10px;
+    margin-right:10px;
+}
+.hproducts .flex .product img{
+    max-height:200px;
+    max-width:300px;
+}
+
+.rhf-header{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color:black;
+    padding:10px 10px 3px;
+}
+.rvi-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.f{
+    display: flex;
+    width:60px;
+    
+}
+
+.back-to-top{
+    position: relative;
+    background:#404d5e;
+    color:white;
+    margin-top: 70px;
+    
+}.back-to-top:hover{
+    background:#404d5ed3;}
+.back-to-top div{
+    width: 100%;
+    font-size:13px;
+    padding:15px;
+    display: flex;
+    justify-content: center;
+}
+/* Bottom Container */
+.bottom-container{
+    padding:10px 20px;
+    background:#232F3E;
+    color:rgb(248, 248, 248);
+}
+
+/* Bottom Menu  */
+.bottom-menu{
+    padding:30px;
+    background:#232F3E;
+    color:rgb(248, 248, 248);
+    display: flex;
+    justify-content: space-around;
+    border-bottom:1px solid #414c5a;
+}
+.bottom-menu .title{
+    font-size: 15px;
+    font-weight: 700;
+}
+.bottom-menu ul{
+    direction: flex;
+    flex-direction: column;
+}
+.bottom-menu ul li{
+    list-style: none;
+}
+.bottom-menu ul li a{
+    text-decoration: none;
+    color:rgb(206, 206, 206);
+}.bottom-menu ul li a:hover{
+    text-decoration: underline;
+}
+
+/* Button container */
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    padding:20px;
+}
+.button-container button{
+    padding:10px 20px;
+    border:1px solid lavender;
+    color:lavender;
+    border-radius:5px;
+    background:none;
+    margin:10px;
+}
+.bottom-links{
+    background:#131A22;
+    color:#DDDDDD;
+    padding:50px;
+    display:flex;
+    justify-content: space-around;
+
+}
+.bottom-links ul li{
+    list-style: none;
+    margin-top:10px;
+}
+.bottom-links ul li a{
+    text-decoration: none;
+    font-size:13px;
+    color:#DDDDDD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}.bottom-links ul li a:hover{
+    text-decoration: underline;
+}
+.bottom-links ul li a .linkD{
+    font-size: 11px;
+    color:#999999;
+    max-width: 100px;
+    flex-wrap: wrap;
+}
+
+/* Footer */
+.footer{
+    padding:20px;
+    background:#131A22;
+    display: flex;
+    justify-content: center;
+    color:#DDDDDD;
+}
+.footer a,.footer a:hover{
+    text-decoration: none;
+    margin:10px;
+    font-size:14px;
+    color:#DDDDDD;
+}
+.footer span{
+    margin:10px;
+    font-size:12px;
+    color: #999999;
+}
